@@ -1,0 +1,23 @@
+{
+  "name": "create-fe-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.7.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.5.1",
+    "snabbdom": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  }
+}
